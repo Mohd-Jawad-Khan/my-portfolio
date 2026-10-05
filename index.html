@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohd Jawad Khan | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      background: #161b22;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #30363d;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header h1 {
+      font-size: 1.3rem;
+      color: #58a6ff;
+    }
+    nav a {
+      color: #8b949e;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    .hero {
+      text-align: center;
+      padding: 5rem 1rem 3rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #f0f6fc;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #8b949e;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #238636;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2ea043;
+    }
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    .section h3 {
+      font-size: 1.8rem;
+      color: #f0f6fc;
+      border-bottom: 2px solid #21262d;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1rem;
+    }
+    .skill-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+    }
+    .project-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+    }
+    .project-card h4 {
+      color: #58a6ff;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #21262d;
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mohd Jawad Khan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Hi, I'm Mohd Jawad Khan 👋</h2>
+      <p>Developer & Tech Enthusiast. Building clean, fast, and modern web applications.</p>
+      <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <section id="about" class="section">
+      <h3>About Me</h3>
+      <p>I am passionate about software engineering, problem solving, and building tools that make an impact. Always curious to explore modern technologies and practical coding solutions.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card">HTML5 & CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">Git & GitHub</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h3>Featured Projects</h3>
+      <div class="project-card">
+        <h4>My Web Project</h4>
+        <p>A responsive web project built using modern web standards and hosted on GitHub Pages.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>Feel free to reach out via email:</p>
+      <p style="margin-top: 0.5rem; color: #58a6ff;">khan.ranno2004@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Mohd Jawad Khan. Hosted with GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
